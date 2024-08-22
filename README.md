@@ -2,7 +2,7 @@
 
 <div align="center">
     <h3>Settle disputes immutably</h3>
-    <h3>Made by <a href="https://google.com">0xFab</a></h3>
+    <h3>Made by <a href="https://github.com/fabrobles92">Fab</a></h3>
 </div>
 
 ## Features

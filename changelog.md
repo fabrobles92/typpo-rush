@@ -3,13 +3,17 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
 ### Added
+
 - Creation of landing page.
 - Github actions for CI
 - Integration with wallets
 
 ## [0.1.0] - 2024-08-21
+
 ### Added
+
 - Created a new Next.js project using `create-next-app`.
 - License, README.md and changelog.md
 - Initial project structure with the following:
