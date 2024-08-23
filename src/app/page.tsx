@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Tyypo Rush</title>
       </Head>
-      <Navbar/>
+      <Navbar />
       <section className="flex flex-grow">
         <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse px-10">
