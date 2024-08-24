@@ -13,9 +13,11 @@ export default function Home() {
       <section className="flex flex-grow">
         <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse px-10">
-            <img
-              src="/Keyboard.png"
-              className="max-w-sm rounded-lg bg-transparent"
+            <Image
+              src={"/Keyboard.png"}
+              alt="Keyboard image"
+              width={400}
+              height={400}
             />
             <div>
               <h1 className="text-5xl font-bold">Typpo Rush</h1>
