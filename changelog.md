@@ -2,13 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [0.2.0] - 2024-08-25
 
 ### Added
 
-- Creation of landing page.
-- Github actions for CI
-- Integration with wallets
+- Tyypo rush landing Page:
+  - Navbar
+  - Footer
+  - Hero
+- New logo
+- New icon
+
+### Removed
+
+- Default icon
 
 ## [0.1.0] - 2024-08-21
 
@@ -27,3 +34,5 @@ All notable changes to this project will be documented in this file.
   - **`tsconfig.json`**: Typescript configuration.
   - **`postcss.config.mjs`**: Postcss configuration.
 - Initial commit with basic project setup.
+
+

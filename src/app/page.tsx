@@ -6,9 +6,6 @@ import Navbar from "./components/navbar";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
-      <Head>
-        <title>Tyypo Rush</title>
-      </Head>
       <Navbar />
       <section className="flex flex-grow">
         <div className="hero">
