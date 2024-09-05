@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2024-09-05
+
+### Added
+- Integration of wallet:
+  - RainbowkitProvider
+  - Added networks Optimism Mainnet and Optimism Sepolia
+  - RainbowKitSiweNextAuthProvider to create a signed session with a wallet
+- Next-Auth session:
+  - Endpoint **api/auth/[...nextauth]/route.ts**
+  
+
 ## [0.2.0] - 2024-08-25
 
 ### Added
