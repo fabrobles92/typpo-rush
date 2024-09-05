@@ -34,5 +34,3 @@ All notable changes to this project will be documented in this file.
   - **`tsconfig.json`**: Typescript configuration.
   - **`postcss.config.mjs`**: Postcss configuration.
 - Initial commit with basic project setup.
-
-

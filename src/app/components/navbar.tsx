@@ -1,4 +1,5 @@
 import React from "react";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Navbar = () => {
   return (
@@ -111,7 +112,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="flex-none px-5">
-        <button className="btn btn-accent">Connect Wallet</button>
+        <ConnectButton showBalance={false} />
       </div>
     </div>
   );
