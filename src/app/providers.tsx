@@ -1,9 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { getSession, SessionProvider } from "next-auth/react";
-import type { Session } from "next-auth";
-import { AppProps } from "next/app";
+import { SessionProvider } from "next-auth/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiProvider } from "wagmi";
 import { RainbowKitProvider, lightTheme } from "@rainbow-me/rainbowkit";
@@ -11,10 +9,9 @@ import { RainbowKitSiweNextAuthProvider } from "@rainbow-me/rainbowkit-siwe-next
 
 import { config } from "../wagmi";
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
-export function Providers({ children }: {children: React.ReactNode;}) {
-
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <WagmiProvider config={config}>
       <SessionProvider>

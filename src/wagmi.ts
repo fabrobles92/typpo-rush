@@ -1,8 +1,5 @@
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
-import {
-  optimism,
-  sepolia,
-} from "wagmi/chains";
+import { optimism, sepolia } from "wagmi/chains";
 
 export const config = getDefaultConfig({
   appName: "Typpo Rush",
