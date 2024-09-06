@@ -1,4 +1,4 @@
-# Typpo Rush
+# <a href="https://typporush.xyz">Typpo Rush</a>
 
 <div align="center">
     <h3>Settle disputes immutably</h3>
